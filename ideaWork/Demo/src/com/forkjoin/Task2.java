@@ -1,4 +1,4 @@
-package com.forkjoin;
+package forkjoin;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.RecursiveTask;

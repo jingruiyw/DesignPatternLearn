@@ -1,4 +1,4 @@
-package com.algorithms;
+package algorithms;
 
 /**
  * 二分查找

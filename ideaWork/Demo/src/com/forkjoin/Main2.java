@@ -1,4 +1,4 @@
-package com.forkjoin;
+package forkjoin;
 
 import java.time.Instant;
 import java.util.Random;
@@ -19,7 +19,7 @@ public class Main2 {
         System.out.println(time);
 
         ForkJoinPool pool = new ForkJoinPool();
-        Integer invoke = pool.invoke(new Task2(arr, 0, arr.length));
+        Integer invoke = pool.invoke(new com.forkjoin.Task2(arr, 0, arr.length));
         System.out.println(Instant.now().toEpochMilli());
         System.out.println(time);
         System.out.println("计算出来的总和：" + invoke);

@@ -1,4 +1,4 @@
-package com.forkjoin;
+package forkjoin;
 
 public class Product {
 
