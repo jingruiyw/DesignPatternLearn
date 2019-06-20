@@ -1,28 +1,22 @@
-package com.test;
+package jr;
 
 import java.util.Scanner;
 
-public class Main {
+public class TestArray {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+        String s = sc.next();
+        String[] nums = s.split(",");
+
         int ans = 0, x;
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
-                x = sc.nextInt();
+                x = Integer.parseInt(nums[j]);
                 ans += x;
             }
         }
         System.out.println(ans);
-    }
-
-    private String relation(Integer[][] relation, Integer[][] member) {
-        for (int i= 0; i< relation.length; i++){
-            for(int j=0; j< member.length; j++) {
-
-            }
-        }
-        return null;
     }
 }

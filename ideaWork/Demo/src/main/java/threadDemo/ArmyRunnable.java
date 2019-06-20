@@ -1,4 +1,4 @@
-package com.threadDemo;
+package threadDemo;
 
 /**
  * 军队线程

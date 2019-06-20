@@ -1,4 +1,4 @@
-package com.jr;
+package jr;
 
 import org.junit.Test;
 

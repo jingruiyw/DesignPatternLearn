@@ -1,4 +1,4 @@
-package com.test;
+package test;
 
 public class Zipper {
     public static String zipString(String iniString) {

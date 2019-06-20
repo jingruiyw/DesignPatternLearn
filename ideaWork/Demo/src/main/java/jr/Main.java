@@ -1,4 +1,4 @@
-package com.jr;
+package jr;
 
 import java.util.ArrayList;
 import java.util.Arrays;

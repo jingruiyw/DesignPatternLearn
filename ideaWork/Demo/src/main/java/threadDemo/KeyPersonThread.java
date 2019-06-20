@@ -1,4 +1,4 @@
-package com.threadDemo;
+package threadDemo;
 
 public class KeyPersonThread extends Thread {
     public KeyPersonThread(String name) {

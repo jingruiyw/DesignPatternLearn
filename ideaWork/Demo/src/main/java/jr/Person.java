@@ -1,4 +1,4 @@
-package com.jr;
+package jr;
 
 public class Person implements Cloneable{
     private Integer age;

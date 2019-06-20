@@ -1,4 +1,4 @@
-package com.jr;
+package jr;
 
 /**
  * 一个想的很失败的例子
