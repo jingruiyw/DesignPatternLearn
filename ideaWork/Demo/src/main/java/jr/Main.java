@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-class main {
+class ain {
     public static void main(String[] args) {
         String m = "aaadcv";
         System.out.println(zip(m));
